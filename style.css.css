@@ -1,0 +1,61 @@
+/* കോൺടാക്റ്റ് സെക്ഷൻ */
+.contact-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.contact-form {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.submit-btn {
+    background: #2e7d32;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background: #1b5e20;
+}
+
+.direct-contact {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.email-link {
+    color: #2e7d32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
